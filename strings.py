@@ -18,6 +18,9 @@ print(substring)  # Output: ello
 new_string = my_string + " This is a new string."
 print(new_string)  # Output: Hello, world! This is a new string.
 
+
+#######################################################################
+
 # the below code fragment can be found in:chatgpt
 # Examples of creating strings
 str1 = 'Hello, World!'
@@ -58,7 +61,7 @@ print(len(str1))  # Length of the string
 print(str2.isalpha())  # Check if all characters are alphabetic
 
 #######################################################################
-
+# tabnine AI support
 # Using % operator
 age = 30
 print("My age is %d years old" % age)  # Output: My age is 30 years old
