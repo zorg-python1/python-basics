@@ -27,3 +27,15 @@ for fruit in fruits:
         continue
     # Print only fruits with names longer than 5 characters
     print(fruit)
+
+
+
+
+# # Print fruits from a list, skipping bananas
+
+# fruits = ["apple", "banana", "cherry", "date", "fig"]
+
+# for fruit in fruits:
+#     if fruit == "banana":  # Check if the fruit is banana
+#         continue  # Skip bananas
+#     print(fruit)  # Print other fruits
