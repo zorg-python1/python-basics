@@ -8,19 +8,19 @@
 
 # Example 1: Catching a specific exception type
 
-# try:
-#   x = int(input("Enter a number: "))
-#   print(10 / x)
-# except ZeroDivisionError:
-#   print("Cannot divide by zero.")
+try:
+  x = int(input("Enter a number: "))
+  print(10 / x)
+except ZeroDivisionError:
+  print("Cannot divide by zero.")
 
 # Example 2: Catching multiple exception types
 
-# try:
-#   x = int(input("Enter a number: "))
-#   print(10 / x)
-# except (ValueError, TypeError):
-#   print("Invalid input. Please enter a number.")
+try:
+  x = int(input("Enter a number: "))
+  print(10 / x)
+except (ValueError, TypeError):
+  print("Invalid input. Please enter a number.")
 
 # Example 3: Using else and finally blocks
 

@@ -24,6 +24,8 @@
 # print(dog.speak())  # Output: Buddy says Woof!
 # print(cat.speak())  # Output: Whiskers says Meow!
 
+
+
 # Define a superclass called Animal
 class Animal:
     def __init__(self, name):
